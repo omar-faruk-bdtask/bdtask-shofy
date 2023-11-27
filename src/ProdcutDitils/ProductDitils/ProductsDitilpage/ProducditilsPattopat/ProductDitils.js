@@ -1,12 +1,17 @@
 import React from 'react';
 import Subscribeforupdates from '../Subscribeforupdates/Subscribeforupdates';
+import OverViewComponent from '../../OverViewComponent/OverViewComponent';
+import OverViewButton from '../../OverViewButton/OverViewButton';
 
 const ProductDitils = () => {
 
     return (
         <div >
-            <h4>this is product ditils</h4>
+
+            <OverViewButton></OverViewButton>
+            <OverViewComponent></OverViewComponent>
             <Subscribeforupdates></Subscribeforupdates>
+
         </div>
     );
 };
