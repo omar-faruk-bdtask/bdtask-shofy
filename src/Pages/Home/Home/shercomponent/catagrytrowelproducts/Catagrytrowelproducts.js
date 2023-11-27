@@ -96,8 +96,8 @@ const Catagrytrowelproducts = () => {
 
 
         return (
-                <div className='row  pading_full_display' style={{ backgroundColor: "#FFFFFF" }}>
-                        <div className='d-flex catagoraytowel_product' style={{ gap: "50px" }}>
+                <div className='row   mt-4 pading_full_display' style={{ backgroundColor: "#FFFFFF" }}>
+                        <div className='   mt-4 catagoraytowel_product' style={{ gap: "50px" }}>
 
                                 {
                                         catagrytrowelproducts?.map(catagrytrowelproduct => <div className='' key={catagrytrowelproduct.id}>

@@ -3,21 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import leptop from "../../../../../assets/SpecialSaleOffer_slider/leptop.png"
 import backgraund from "../../../../../assets/SpecialSaleOffer_slider/backgraund.png"
-//// oper data golo banner _er ;
-
-// import mobile from "../../../../../assets/spexialSaleOffer_product/mobile-1.png"
-// import pngwing from "../../../../../assets/spexialSaleOffer_product/pngwing 33.png"
-// import watch from "../../../../../assets/spexialSaleOffer_product/watch-9.png"
-// oper _er  data golo  product data ;
-
-// import reding from "../../../../../assets/iconreting/rating.svg";
-// import withcolerrating from "../../../../../assets/iconreting/withcolerrating.svg";
-// import hardicon from "../../../../../assets/hardicons/hardicon.svg";
-// import grayverifyde from "../../../../../assets/grayverifyde/verified.svg"
-// import thredot from "../../../../../assets/thredoticon/thredot.svg";
-// import verifide from "../../../../../assets/verifydeicon/grayverified.svg"
-// import shopingcardicon from "../../../../../assets/shopingcardiconbutton/shopingicon.svg"
-
+import SpecialSaleOfferRightSiteProductDitils from './SpecialSaleOfferRightSiteProductDitils/SpecialSaleOfferRightSiteProductDitils';
 
 
 
@@ -25,7 +11,7 @@ import backgraund from "../../../../../assets/SpecialSaleOffer_slider/backgraund
 
 
 const SpecialSaleOffers = () => {
-        // specialSaleoffersSeclectOptionData = [
+      
         //         {
         //                 id: 1,
         //                 delprice: 2300.333,
@@ -95,12 +81,12 @@ const SpecialSaleOffers = () => {
         ];
 
         return (
-                <section className='mt-5  ms-4'>
+                <section className='mt-5  ms-3  gap-3'>
                         <div className='d-flex justify-content-between'>
                                 <h4 style={{
                                         color: "#000", fontSize: "22px", fontFamily: "inter",
                                         fontWeight: 500, lineHeight: "normal"
-                                }}>Explore Our Top Promoter</h4>
+                                }}>Special Sale Offer</h4>
                                 <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
@@ -155,41 +141,8 @@ const SpecialSaleOffers = () => {
 
 
                 <Col lg="6">
-         
-<div className='d-flex'>
-<div className="card" style={{ width: "18rem" }}>
-  <img src="..." className="card-img-top" alt="..." />
-  <div className="card-body">
-    <p className="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
-  </div>
-</div>
-
-<div className="card" style={{ width: "18rem" }}>
-  <img src="..." className="card-img-top" alt="..." />
-  <div className="card-body">
-    <p className="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
-  </div>
-</div>
-
-<div className="card" style={{ width: "18rem" }}>
-  <img src="..." className="card-img-top" alt="..." />
-  <div className="card-body">
-    <p className="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
-  </div>
-</div>
-
-</div>
-
-
+                        <SpecialSaleOfferRightSiteProductDitils></SpecialSaleOfferRightSiteProductDitils>
+     
 
                                 </Col>
                         </Row>

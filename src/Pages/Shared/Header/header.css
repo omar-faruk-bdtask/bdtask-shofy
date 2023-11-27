@@ -8,6 +8,29 @@
   width: 700px;
 }
 
+/* //  css in drak button header  */
+.drak_button_pading_setup{
+  border-radius: 100px;
+  background: #FFF;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.dark_option_style_setup{
+
+  display: flex;
+  padding: 3px 7px 3.211px 3.5px;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  gap: 6.711px;
+  border-radius: 40px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  background: #F85606;
+}
+
 .search-icon {
   position: absolute;
   top: 50%;
@@ -82,4 +105,64 @@
   .custom-search-input {
     width: 80px;
   }
+}
+/* ///// style_to_shach_section_body_setup */
+.style_to_shach_section_body_setup{
+
+height: 70px;
+flex-shrink: 0;
+border: 1.5px solid var(--White-U, #F7F6F3);
+background: var(--White, #FFF);
+}
+/* // accunt_body_setup  */
+.account_body_setup{
+  display: flex;
+width: 30px;
+height: 30px;
+padding: 7.5px 7.455px 6.5px 8px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background: #CDCDCD;
+
+}
+/* . accontu_toggel_in_logo_style_setup */
+.accontu_toggel_in_logo_style_setup{
+  display: flex;
+padding: 9px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1.5px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+}
+.input_section_body_setup{
+  width: 1200px;
+height: 52px;
+  border-radius: 10px;
+  border: 1.5px solid var(--Border, #B0B0B0);
+  flex-shrink: 0;
+ 
+}
+.scren_logo_setup{
+  display: inline-flex;
+padding: 9px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+border: 1px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+background: var(--bg, #F1F1F1);
+
+}
+.filter_logo_body_setup{
+ 
+  display: inline-flex;
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+border: 1px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+background: var(--bg, #F1F1F1);
 }

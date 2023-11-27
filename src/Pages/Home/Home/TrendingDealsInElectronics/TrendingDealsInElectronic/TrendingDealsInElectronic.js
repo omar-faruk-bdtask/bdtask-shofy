@@ -9,9 +9,10 @@ const TrendingDealsInElectronic = ({ service }) => {
               
 
                 {/* style={{boxShadow:"px 10px 10px 10px rgba(0, 0, 0, 0.1)"}} */}
-                <div className="mx-auto mt-2 " style={{ width: "250px", height: "198px", borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
+                <div className="mx-auto mt-2 " style={{ width: "250px", height: "198px", 
+                 borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
                   <img
-                    style={{ width: "auto", height: "auto", marginLeft: "60px" }}
+                    style={{ width: "auto", height: "auto", marginLeft: "50px" ,marginTop:"40px" }}
                     src={img}
                     className="mt-4  "
                     alt="..."

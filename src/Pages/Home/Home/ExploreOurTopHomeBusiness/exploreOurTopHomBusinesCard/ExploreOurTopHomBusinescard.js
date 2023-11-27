@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react';//
 const ExploreOurTopHomBusinescard=({topHomBusinesdata})=> {
         const {  bessimg,promotericon,starretting,staverifiedlogo,usericon,name,withcolorretting,}=topHomBusinesdata;
         return (

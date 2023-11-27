@@ -67,11 +67,11 @@ const DealsYouMighLike = () => {
 
 
         return (
-                <div>
+                <div style={{backgroundColor:"#F5F7FB"}}>
 
 
 
-                        <div className=''>
+                        <div className='d-flex  justify-content-between p-4'>
                                 <h4 style={{
                                         color: "#000", fontSize: "22px", fontFamily: "inter",
                                         fontWeight: 500, lineHeight: "normal"
@@ -82,7 +82,7 @@ const DealsYouMighLike = () => {
                         <div className='row   ' >
 
 
-                                <div className="d-flex flex-wrap">
+                                <div className="d-flex gap-3 flex-wrap">
                                         {
                                                 servicesData.map(servic => <DeealsyouMighLikeWeklyOfferCard
                                                         key={servic.id}

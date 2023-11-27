@@ -9,6 +9,7 @@ import News from "../../Pages/News/News/News";
 import Profile from "../../Pages/Others/Profile/Profile";
 import TermsAndConditions from "../../Pages/Others/TermsAndContions/TermsAndConditions";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import ProductDitils from "../../ProdcutDitils/ProductDitils/ProductsDitilpage/ProducditilsPattopat/ProductDitils";
 
 export const routes = createBrowserRouter([
     {
@@ -37,7 +38,11 @@ export const routes = createBrowserRouter([
             {
                 path: '/profile',
                 element: <PrivateRoute><Profile></Profile></PrivateRoute>
-            }
+            },
+            {
+                path: '/productditils',
+                element:<ProductDitils></ProductDitils>
+            },
         ]
     }
 ])

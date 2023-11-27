@@ -45,7 +45,7 @@ const MadilHeroBannerThard = () => {
         return (
                 <div className='madilbanner_thrad'>
                         <div className="row">
-                                <div className="d-flex p-4 m-4  gap-3">
+                                <div className="d-flex   ">
                                         {
                                                 bannerData?.map(banner => <div key={banner.id} className={`hero_banner_setup mx-auto 
                                          ${banner.bgClass}`}>

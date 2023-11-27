@@ -3,3 +3,7 @@
         
 
 }
+.TrendingDealsInElectronic_product_grid_setup{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+}

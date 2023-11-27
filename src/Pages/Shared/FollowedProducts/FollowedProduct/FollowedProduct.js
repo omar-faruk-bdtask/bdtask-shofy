@@ -4,7 +4,8 @@ import shopingcardicon from "../../../../assets/shopingcardiconbutton/shopingico
 const FollowedProduct = ({ service }) => {
         const { name, verifide,thredot,offers, description, img, price, delprice 
                  ,hardicon,redingicon,widthredingicon ,grayverifyde} = service;
-
+  
+                 //setup complte
         return (
        
 
@@ -14,9 +15,10 @@ const FollowedProduct = ({ service }) => {
                  "10px", border: "none", backgroundColor: "#FFF", boxShadow: "0.1px 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.1)" }}
               >
                 {/* style={{boxShadow:"px 10px 10px 10px rgba(0, 0, 0, 0.1)"}} */}
-                <div className="mx-auto " style={{ width: "250px", height: "198px", borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
+                <div className="mx-auto " style={{ width: "250px", height: "198px", 
+                borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
                   <img
-                    style={{ width: "auto", height: "auto", marginLeft: "60px" }}
+                    style={{ width: "auto", height: "auto", marginLeft: "45px" }}
                     src={img}
                     className="mt-4  "
                     alt="..."

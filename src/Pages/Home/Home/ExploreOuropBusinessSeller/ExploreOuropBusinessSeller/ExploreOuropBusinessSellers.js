@@ -1,4 +1,5 @@
 import React from "react";
+import  "./ExploreOuropBusinessSellers.css"
 import ammazzon1 from "../../../../../assets/ExploreOurTopBusinessSeller/ammazzon1.jpg";
 import google from "../../../../../assets/ExploreOurTopBusinessSeller/google2.jpg";
 import ebay from "../../../../../assets/ExploreOurTopBusinessSeller/ebay3.jpg";
@@ -127,7 +128,7 @@ const ExploreOuropBusinessSellers = () => {
 
         ];
 
-
+//setup complet 
         return (
 
                 <div className='mt-5  ms-4 "'>
@@ -141,8 +142,8 @@ const ExploreOuropBusinessSellers = () => {
 
                         </div>
 
-                        <div className='row '>
-                                <div className=' d-flex grid_colams_promoter_card ms-2  gap-4'>
+                        <div className='row  mt-3'>
+                                <div className='explore_Our_Top_Business_Seller_grid_setup ms-2  gap-4'>
                                         {
                                                 exploreOuropBusinessSellersData?.map(exploreOuropBusinessSeller =>
                                                          <ExploreOuropBusinessSeller

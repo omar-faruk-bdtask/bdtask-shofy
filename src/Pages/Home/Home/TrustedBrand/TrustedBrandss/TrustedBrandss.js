@@ -63,7 +63,7 @@ const Trustedsmss = () => {
 
                         </div>
 
-                        <div className='row '>
+                        <div className='row mt-4 '>
                                 <div className='d-flex grit_trusd_item gap-3'>
 
 

@@ -1,9 +1,12 @@
 import React from 'react';
 import"./trendingdealsinelectionic.css"
-import trendingDealsinElectronics from "../../../../assets/TrendingDealsinElectronics/mobile-1.png";
-import trendingDealsinElectronics1 from "../../../../assets/TrendingDealsinElectronics/slider-img-1.png";
-import trendingDealsinElectronics3 from "../../../../assets/TrendingDealsinElectronics/pngwing 31 (1).png";
-import trendingDealsinElectronics4 from "../../../../assets/TrendingDealsinElectronics/pngwing 34.png";
+import shos1 from "../../../../assets/TrendingDealsinElectronics/shos1.png";
+import watch2 from "../../../../assets/TrendingDealsinElectronics/watch2.png";
+import bag3 from "../../../../assets/TrendingDealsinElectronics/bag3.png";
+import mobile from "../../../../assets/TrendingDealsinElectronics/mobile-4.png";
+import watch from "../../../../assets/TrendingDealsinElectronics/watch-5.png";
+import shos6 from "../../../../assets/TrendingDealsinElectronics/shos6.png";
+
 import TrendingDealsInElectronic from './TrendingDealsInElectronic/TrendingDealsInElectronic';
 import { Link } from 'react-router-dom';
 
@@ -13,7 +16,7 @@ const TrendingDealsInElectronics = () => {
                         id: 1,
                         name: 'Fluoride Treatment',
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics,
+                        img: shos1,
                         price: 8750.00,
                         delprice: 3910.00,
 
@@ -22,7 +25,7 @@ const TrendingDealsInElectronics = () => {
                         id: 2,
                         name: 'Cavity Filling',
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics3,
+                        img: watch2,
                         price: 8750.00,
                         delprice: 3910.00,
                 },
@@ -31,7 +34,7 @@ const TrendingDealsInElectronics = () => {
                         name: 'Teeth Whitening',
 
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics1,
+                        img: bag3,
                         price: 8750.00,
                         delprice: 3310.00,
                 },
@@ -39,7 +42,7 @@ const TrendingDealsInElectronics = () => {
                         id: 4,
                         name: 'Teeth Whitening',
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics4,
+                        img: mobile,
                         parseIntrice: 8750.00,
                         delprice: 3910.500,
                 },
@@ -47,7 +50,7 @@ const TrendingDealsInElectronics = () => {
                         id: 5,
                         name: 'Teeth Whitening',
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics,
+                        img: watch,
                         price: 8750.00,
                         delprice: 9310.00,
 
@@ -58,7 +61,7 @@ const TrendingDealsInElectronics = () => {
                         id: 6,
                         name: 'Teeth Whitening',
                         description: 'Direct sales by manufacturers Warm Imitation Fur Blanket...',
-                        img: trendingDealsinElectronics4,
+                        img: shos6,
                         price: 8750.00,
                         delprice: 9310.00,
 
@@ -76,7 +79,8 @@ const TrendingDealsInElectronics = () => {
 
 
                                <div className='row'>
-                                <div  className='gap-3 d-flex'>
+                                <div  className='gap-3 
+                                  TrendingDealsInElectronic_product_grid_setup'>
                                 {
                                         servicesData.map(servic => <TrendingDealsInElectronic
                                                 key={servic.id}

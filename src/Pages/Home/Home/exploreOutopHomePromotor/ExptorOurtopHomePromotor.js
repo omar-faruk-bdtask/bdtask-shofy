@@ -1,4 +1,5 @@
 import React from 'react';
+import "./exptorourtophomeprometer.css"
 
 import abubakarsiddiq from "../../../../assets/ExploreOurTopPromoter/Abu Bakar Siddiq.png";
 import kabirIbnMurad from "../../../../assets/ExploreOurTopPromoter/Kabir Ibn Murad2.png";
@@ -131,7 +132,7 @@ const ExptorOurtopHomePromotor = () => {
   ];
   return (
 
-    <div className='mt-5  ms-4 "'>
+    <div className=' ms-4 ' style={{marginTop:60}}>
 
       <div className='d-flex justify-content-between'>
         <h4 style={{
@@ -143,7 +144,7 @@ const ExptorOurtopHomePromotor = () => {
       </div>
 
       <div className='row '>
-        <div className=' d-flex grid_colams_promoter_card ms-2  gap-4'>
+        <div className=' grid_colams_promoter_card ms-2  gap-4'>
           {
             exptorOurtopHomePromotorData?.map(promoterdata => <PromoterCard key={promoterdata.id} promoterdata={promoterdata}></PromoterCard>)
 
